@@ -23,6 +23,7 @@
     "@types/react-map-gl": "6.1.7",
     "chart.js": "4.4.1",
     "date-fns": "3.3.1",
+    "geist": "1.2.2",
     "leaflet": "1.9.4",
     "leaflet-arc": "1.0.2",
     "leaflet-curve": "1.0.0",
