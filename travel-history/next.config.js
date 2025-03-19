@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    output: 'standalone',
     webpack: (config) => {
         config.resolve.fallback = {
             ...config.resolve.fallback,
@@ -7,6 +8,9 @@ const nextConfig = {
         };
         return config;
     },
+    experimental: {
+        appDir: true
+    }
 }
 
 module.exports = nextConfig 
