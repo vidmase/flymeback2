@@ -1,0 +1,10 @@
+[build]
+  base = "travel-history"
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NEXT_RUNTIME = "nodejs"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs" 
